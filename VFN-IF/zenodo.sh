@@ -1,1 +1,0 @@
-zenodo-cli -t ACCESS_TOKEN deposit --metadata '{"metadata": {"title": "My File", "upload_type": "dataset", "description": "This is a test", "creators": [{"name": "John Smith", "affiliation": "University of XYZ", "orcid": "0000-0002-1825-0097"}]}}' --file my_file.txt
