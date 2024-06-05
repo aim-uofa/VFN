@@ -6,4 +6,6 @@
 > Spotlight Presentation   
 > (\* equal contribution).  
 
-For the source code, please refer to [Here](https://github.com/BioAI-Nexus/VFN).
+Due to the complexity of VFN's involved code, we will organize these codes in the future and provide corresponding explanations. We have already released all key source codes, and for specific installation instructions, please refer to UniFold and se3 diffusion. We will supplement the installation instructions later.
+
+Most of the VFN code is based on UniFold and se3 diffusion. We thank UniFold and se3 diffusion for their help in this work.
