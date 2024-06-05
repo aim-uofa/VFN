@@ -1,0 +1,24 @@
+defaults:
+  - base
+
+data:
+  cluster_path: null
+
+diffuser:
+  so3:
+    use_cached_score: True
+
+experiment:
+  name: se3_baseline_10epoch_16batch_weian_re
+  num_epoch: 10
+  batch_size: 16
+  max_squared_res: 300000
+  rot_loss_t_threshold: 0.0
+  rot_loss_weight: 1.0
+  separate_rot_loss: False
+  sample_mode: time_batch
+  num_gpus: 1
+
+hydra:
+  sweeper:
+    params:
