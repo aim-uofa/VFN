@@ -1,0 +1,4 @@
+./processed/*
+./output_dir/*
+./extra.py
+.vscode/
